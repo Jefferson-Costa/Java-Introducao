@@ -1,0 +1,44 @@
+package estruturaswitch;
+
+import javax.swing.JOptionPane;
+
+public class EstruturaSwitch3 extends JOptionPane {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+ JOptionPane.showMessageDialog(null, "Ola bom dia!", "Sistema", JOptionPane.INFORMATION_MESSAGE);
+ 
+ 	String estacao = JOptionPane.showInputDialog("Digite uma estacao do ano e lhe diremos os meses");
+	
+ 	String rs;
+ 	
+ 	switch (estacao) {
+ 	case "verao":
+ 		rs = "Dezembro - Janeiro - Fevereiro";
+ 		break;
+ 	case "inverno":
+ 		rs = "Junho - Julho - Agosta";
+ 	case "outono":
+ 		rs = "Março - Abril - Maio";
+ 		break;
+ 		
+ 	case "primavera":
+ 		rs = "Setembro - Outubro - Novembro";
+ 		break;
+ 		
+ 		default:
+ 		rs = "Esta estação não existe";
+ 		
+ 		break;
+ 	}
+ 	
+ 	
+ 	JOptionPane.showConfirmDialog(null, rs, "Resposta", JOptionPane.INFORMATION_MESSAGE);
+ 		
+ 	
+ 	}
+ 	
+	}
+
+}

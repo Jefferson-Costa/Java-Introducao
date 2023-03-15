@@ -1,0 +1,37 @@
+package br.com.poo.estruturaif;
+
+import java.util.Scanner;
+
+public class Inss {
+
+
+
+public static void main (String [] args) {
+	double salario;
+	Scanner entrada = new Scanner(System.in);
+	
+	System.out.println("Digite o seu salário: ");
+	salario = entrada.nextDouble();
+	
+	
+	
+	aliquota = salario *
+	
+	System.out.println("\nA media do aluno é: " +media);
+	
+	if(media >= 7) {
+		System.out.println("\nAprovado");
+	}
+	
+	else if(media <= 4) {
+		System.out.println("\nReprovado");
+	}
+	
+	else {
+		System.out.println("Recuperação");
+	}
+	
+}
+
+}
+

@@ -1,0 +1,48 @@
+package estruturaswitch;
+
+import javax.swing.JOptionPane;
+
+public class EstruturaSwitch4 extends JOptionPane {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		 JOptionPane.showMessageDialog(null, "Ola bom dia!", "Sistema", JOptionPane.INFORMATION_MESSAGE);
+		 
+		 	String cargo = JOptionPane.showInputDialog("Digite o cargo desejado para saber o salario");
+			
+		 	String rs;
+		 	
+		 	switch (cargo) {
+		 	case "Diretor":
+		 		rs = "R$2.000,00";
+		 		break;
+		 	case "Gerente":
+		 		rs = "R$15.000,00";
+		 	case "Secretaria":
+		 		rs = "R$8.000,00";
+		 		break;
+		 		
+		 	case "Assistente":
+		 		rs = "R$4.000,00";
+		 		break;
+		 		
+		 	case "Estagiaio":
+		 		rs = "R$1.500,00";
+		 		break;
+		 		
+		 	default:
+		 		rs = "Este cargo nao existe";
+		 		break;
+		 	}
+		 	
+		 	
+		 	JOptionPane.showConfirmDialog(null, rs, "Resposta", JOptionPane.INFORMATION_MESSAGE);
+		 		
+		
+		
+		
+	}
+
+}

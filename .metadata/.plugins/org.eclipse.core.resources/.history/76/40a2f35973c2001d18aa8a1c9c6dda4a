@@ -1,0 +1,25 @@
+package br.com.poo.estruturaif;
+
+import java.util.Scanner;
+
+public class Inss {
+
+
+
+public static void main (String [] args) {
+	double salario;
+	Scanner entrada = new Scanner(System.in);
+	
+	System.out.println("Digite o seu salário: ");
+	salario = entrada.nextDouble();
+	
+	
+	if(salario <= 1302) {
+		double salarioreal;
+		salarioreal = salario *0.925;
+		System.out.println("\nRecebera: " + salarioreal );
+	}
+}
+
+}
+

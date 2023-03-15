@@ -1,0 +1,16 @@
+package estruturaswitch;
+
+import javax.swing.JOptionPane;
+
+public class EstruturaSwitch3 extends JOptionPane {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+ JOptionPane.showMessageDialog(null, "Ola bom dia!", "Sistema", JOptionPane.INFORMATION_MESSAGE);
+ 
+ 	String estacao = JOptionPane.showInputDialog("Digite uma estacao do ano e lhe diremos os meses");
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package EstruturaIF;
+
+public class Estrutura2 {
+
+}
+
+/*
+Este produto calcula as notas dos alunos e obtem a média de cada aluno.
+*Após isso é apresentada uma das mensagens: aprovado ou reprovado. 
+*/
+
+public class Estruturaif2 {
+	
+}

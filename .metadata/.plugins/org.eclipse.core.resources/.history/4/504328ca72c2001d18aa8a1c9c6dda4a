@@ -1,0 +1,23 @@
+package br.com.poo.estruturaif;
+
+import java.util.Scanner;
+
+public class Inss {
+
+
+
+public static void main (String [] args) {
+	double salario;
+	Scanner entrada = new Scanner(System.in);
+	
+	System.out.println("Digite o seu salário: ");
+	salario = entrada.nextDouble();
+	
+	
+	if(salario >= 0 <= 1302) {
+		System.out.println("\nRecebera: " +salario );
+	}
+}
+
+}
+
